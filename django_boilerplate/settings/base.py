@@ -1,4 +1,5 @@
 import os
+from decouple import config
 
 
 BASE_DIR = os.path.dirname(
@@ -6,7 +7,7 @@ BASE_DIR = os.path.dirname(
                 os.path.dirname(
                     os.path.abspath(__file__))))
 
-SECRET_KEY = 'g)#2+43ccp2*i&$%m_r-r%n(p+2a3ccy+%w_gaoy2r+-sd2!e^'
+SECRET_KEY = config('SECRET_KEY')
 
 
 INSTALLED_APPS = [
