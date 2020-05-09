@@ -5,6 +5,7 @@ from .views import dubuggerTest
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', dubuggerTest, name='home'),
 ]
 
 if settings.DEBUG:
