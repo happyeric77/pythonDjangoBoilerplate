@@ -54,7 +54,7 @@ Twisted==20.3.0
 txaio==20.4.1
 Unidecode==1.1.1
 urllib3==1.25.8
-wagtail==2.8
+wagtail==2.8.2
 wagtail-django-recaptcha==1.0
 wagtail-modeltranslation==0.10.12
 wagtailmenus==3.0.1
